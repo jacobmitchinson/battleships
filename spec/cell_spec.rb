@@ -48,7 +48,4 @@ describe Cell do
     expect{cell.hit}.to raise_error(RuntimeError, "Cell already hit")
   end
 
-
-
-
 end
